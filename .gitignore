@@ -7,6 +7,7 @@ __pycache__/
 Thumbs.db
 .idea/
 .vscode/
+.playwright-cli/
 
 # Secrets and local environment
 .env
@@ -21,4 +22,3 @@ cold-storage/**/source/.git/
 *.tmp
 *.part
 *.lock
-
