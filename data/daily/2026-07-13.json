@@ -10,6 +10,9 @@
   "archive": "cold-storage/nagisanzenin/engram/2026-07-13",
   "commit": "1ebf869f087cf56c8a623e3e3991b55882037866",
   "evidence_status": "sufficient",
+  "evaluation": "data/evaluations/2026-07-13/nagisanzenin--engram.json",
+  "candidate_score": 91.2,
+  "report_score": 93.0,
   "report": "reports/2026-07-13/nagisanzenin--engram-v1.md",
   "version_note": "reports/2026-07-13/version-note-v1.md",
   "limitations": [

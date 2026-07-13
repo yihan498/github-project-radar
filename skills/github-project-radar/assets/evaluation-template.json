@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "date": "YYYY-MM-DD",
+  "repository": "owner/name",
+  "commit": "full-sha",
+  "hard_gates": {
+    "archive_and_access": {"pass": false, "evidence": []},
+    "source_sufficiency": {"pass": false, "evidence": []},
+    "license_identified": {"pass": false, "evidence": []},
+    "basic_safety": {"pass": false, "evidence": []},
+    "not_recent_duplicate": {"pass": false, "evidence": []},
+    "growth_claim_valid": {"pass": false, "evidence": []}
+  },
+  "candidate_scores": {
+    "problem_value": {"raw": 0, "weight": 15, "evidence": [], "uncertainty": ""},
+    "substance": {"raw": 0, "weight": 15, "evidence": [], "uncertainty": ""},
+    "transferability": {"raw": 0, "weight": 15, "evidence": [], "uncertainty": ""},
+    "evidence_quality": {"raw": 0, "weight": 15, "evidence": [], "uncertainty": ""},
+    "engineering": {"raw": 0, "weight": 10, "evidence": [], "uncertainty": ""},
+    "novelty": {"raw": 0, "weight": 10, "evidence": [], "uncertainty": ""},
+    "community_signal": {"raw": 0, "weight": 8, "evidence": [], "uncertainty": ""},
+    "risk_transparency": {"raw": 0, "weight": 7, "evidence": [], "uncertainty": ""},
+    "current_applicability": {"raw": 0, "weight": 5, "evidence": [], "uncertainty": ""}
+  },
+  "candidate_total": 0,
+  "selection_rationale": "",
+  "report_scores": null,
+  "report_total": null,
+  "hard_failures": []
+}
