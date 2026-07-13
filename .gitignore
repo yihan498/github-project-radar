@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Nested Git metadata from cold-stored source snapshots.
+# The source files remain tracked by the outer repository.
+cold-storage/**/source/.git/
+
+# Temporary and partial files
+*.tmp
+*.part
+*.lock
+

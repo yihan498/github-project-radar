@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Project Radar"
+  short_description: "Discover archive and analyze noteworthy GitHub projects daily"
+  default_prompt: "Use $github-project-radar to discover archive and deeply analyze a worthwhile GitHub project today."

@@ -1,0 +1,19 @@
+{
+  "date": "2026-07-13",
+  "selected_repository": "nagisanzenin/engram",
+  "selection_signals": ["new"],
+  "star_observation": {
+    "stars": 665,
+    "verified_growth": false,
+    "reason": "first local observation"
+  },
+  "archive": "cold-storage/nagisanzenin/engram/2026-07-13",
+  "commit": "1ebf869f087cf56c8a623e3e3991b55882037866",
+  "evidence_status": "sufficient",
+  "report": "reports/2026-07-13/nagisanzenin--engram-v1.md",
+  "version_note": "reports/2026-07-13/version-note-v1.md",
+  "limitations": [
+    "No live plugin installation or longitudinal learning experiment was performed",
+    "First local star observation cannot establish growth"
+  ]
+}

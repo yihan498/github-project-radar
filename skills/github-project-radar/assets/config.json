@@ -1,0 +1,12 @@
+{
+  "daily_candidate_limit": 30,
+  "minimum_stars": 50,
+  "classic_minimum_stars": 10000,
+  "rising_absolute_delta": 50,
+  "rising_relative_delta": 0.05,
+  "archive_key_docs_max_bytes": 5000000,
+  "archive_total_key_docs_max_bytes": 30000000,
+  "report_target_chinese_characters": [8000, 12000],
+  "exclude_forks": true,
+  "exclude_archived": true
+}
