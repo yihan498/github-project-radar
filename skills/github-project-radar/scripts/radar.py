@@ -66,7 +66,10 @@ def archive(args):
     try:
         run(["git","clone","--filter=blob:none","--no-tags",f"https://github.com/{owner}/{repo}.git",str(source)])
         manifest["commit"] = run(["git","rev-parse","HEAD"], source).stdout.strip()
-        run(["git","bundle","create",str(dest / "repository.bundle"),"HEAD"], source)
+        try:
+            run(["git","bundle","create",str(dest / "repository.bundle"),"HEAD"], source)
+        except Exception as e:
+            manifest["limitations"].append("Git bundle unavailable: " + str(e))
         files, hashes = [], {}
         for p in source.rglob("*"):
             if p.is_file() and ".git" not in p.parts:
@@ -80,7 +83,7 @@ def archive(args):
             wanted = p.stem.lower() in names or (rel.parts and rel.parts[0].lower() in {"docs","doc","documentation"})
             if wanted and size <= CONFIG["archive_key_docs_max_bytes"] and total + size <= CONFIG["archive_total_key_docs_max_bytes"]:
                 target = key / rel; target.parent.mkdir(parents=True, exist_ok=True); shutil.copy2(p, target); total += size
-        manifest.update(key_docs_bytes=total, status="complete")
+        manifest.update(key_docs_bytes=total, status="complete" if (dest / "repository.bundle").exists() else "partial")
     except Exception as e: manifest["limitations"].append("Git archive incomplete: " + str(e))
     save(dest / "manifest.json", manifest); print(dest)
 
