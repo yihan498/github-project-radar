@@ -53,17 +53,16 @@ python skills/github-project-radar/scripts/radar.py archive --workspace . --repo
 python skills/github-project-radar/scripts/radar.py validate-scorecard --file data/evaluations/YYYY-MM-DD/owner--repository.json
 ```
 
-## 今日示例
+## 本地输出策略
 
-- 深度分析：[`reports/2026-07-13/nagisanzenin--engram-v1.md`](reports/2026-07-13/nagisanzenin--engram-v1.md)
-- 版本说明：[`reports/2026-07-13/version-note-v1.md`](reports/2026-07-13/version-note-v1.md)
-- 当日记录：[`data/daily/2026-07-13.json`](data/daily/2026-07-13.json)
+仓库只公开 Skill、方法规范、评分模板、配置和执行脚本。具体研究内容默认保留在本地，不同步到 GitHub：
 
-## AI 技术路线图
+- `cold-storage/`：源码、Git bundle、官方文档和校验清单。
+- `data/`：候选池、观测历史、评分卡和每日记录。
+- `reports/`：具体项目分析与专题报告。
+- `roadmaps/`：根据个人研究任务形成的路线图。
 
-项目长期维护一份独立的完整 AI 技术路线图，覆盖从数学、硬件、训练、推理、数据、检索到 Agent、平台与可信 AI：
-
-- [`roadmaps/ai-technology-roadmap-v1.md`](roadmaps/ai-technology-roadmap-v1.md)
+如果确实需要分享某一篇成果，应由使用者明确选择文件并单独发布，不改变默认隐私边界。
 
 ## 证据原则
 

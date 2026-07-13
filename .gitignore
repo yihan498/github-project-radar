@@ -22,3 +22,9 @@ cold-storage/**/source/.git/
 *.tmp
 *.part
 *.lock
+
+# Local research outputs. Keep these on the user's machine by default.
+cold-storage/
+data/
+reports/
+roadmaps/
