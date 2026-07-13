@@ -20,7 +20,7 @@
     "novelty": {"raw": 0, "weight": 10, "evidence": [], "uncertainty": ""},
     "community_signal": {"raw": 0, "weight": 8, "evidence": [], "uncertainty": ""},
     "risk_transparency": {"raw": 0, "weight": 7, "evidence": [], "uncertainty": ""},
-    "current_applicability": {"raw": 0, "weight": 5, "evidence": [], "uncertainty": ""}
+    "request_fit": {"raw": 0, "weight": 5, "evidence": [], "uncertainty": ""}
   },
   "candidate_total": 0,
   "selection_rationale": "",

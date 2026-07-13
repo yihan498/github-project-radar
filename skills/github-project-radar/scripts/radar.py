@@ -90,12 +90,12 @@ def archive(args):
 CANDIDATE_WEIGHTS = {
     "problem_value": 15, "substance": 15, "transferability": 15,
     "evidence_quality": 15, "engineering": 10, "novelty": 10,
-    "community_signal": 8, "risk_transparency": 7, "current_applicability": 5,
+    "community_signal": 8, "risk_transparency": 7, "request_fit": 5,
 }
 REPORT_WEIGHTS = {
     "fidelity": 20, "mechanism_depth": 20, "traceability": 15,
     "critical_balance": 10, "general_insights": 15,
-    "tailored_improvements": 15, "structure": 5,
+    "actionable_synthesis": 15, "structure": 5,
 }
 
 def validate_dimension(name, value, expected_weight):
