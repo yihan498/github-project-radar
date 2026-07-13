@@ -59,6 +59,12 @@ python skills/github-project-radar/scripts/radar.py validate-scorecard --file da
 - 版本说明：[`reports/2026-07-13/version-note-v1.md`](reports/2026-07-13/version-note-v1.md)
 - 当日记录：[`data/daily/2026-07-13.json`](data/daily/2026-07-13.json)
 
+## AI 技术路线图
+
+项目长期维护一份独立的完整 AI 技术路线图，覆盖从数学、硬件、训练、推理、数据、检索到 Agent、平台与可信 AI：
+
+- [`roadmaps/ai-technology-roadmap-v1.md`](roadmaps/ai-technology-roadmap-v1.md)
+
 ## 证据原则
 
 - 只有拿到 substantive README、文档和相关源码时，才生成长篇“原项目分析”。
